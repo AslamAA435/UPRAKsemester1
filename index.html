@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baso mantap </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Bakso MaJun</h1>
+            <ul>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2>Sensasi Bakso Asli Indonesia!</h2>
+            <p>Dibuat dengan daging sapi pilihan dan bumbu rahasia keluarga besar. Rasakan kenikmatan yang tiada tanding di setiap gigitan!</p>
+            <button id="pesanButton">Lihat Menu Sekarang</button>
+        </div>
+    </section>
+
+    <section id="tentang" class="section">
+        <h3>Tentang Kami</h3>
+        <p>Bakso Mantap MaJun telah melayani pecinta bakso sejak 2021. Komitmen kami adalah menyajikan bakso dengan kualitas terbaik, higienis, dan rasa yang tak terlupakan. Kami menggunakan 100% daging sapi murni tanpa pengawet.</p>
+    </section>
+
+    <section id="menu" class="section menu-grid">
+        <h3>Menu Andalan Kami</h3>
+        <div class="menu-item">
+            <h4>Bakso Jumbo</h4>
+            <p>Bakso besar dengan isian daging cincang melimpah dan juicy.</p>
+            <span>Rp 25.000</span>
+        </div>
+        <div class="menu-item">
+            <h4>Bakso Telur Komplit</h4>
+            <p>Paduan bakso halus dan berbagai macam toping dengan isian telur yang gurih.</p>
+            <span>Rp 18.000</span>
+        </div>
+        <div class="menu-item">
+            <h4>Bakso Komplit + Cilok</h4>
+            <p>Kombinasi sempurna antara bakso halus dan beberapa toping beserta cilok yang kenyal.</p>
+            <span>Rp 20.000</span>
+        </div>
+        <div class="menu-item">
+            <h4>Bakso Campur</h4>
+            <p>Kombinasi sempurna antara bakso halus dan cincang.</p>
+            <span>Rp 17.000</span>
+        </div>
+        <div class="menu-item">
+            <h4>Bakso Komplit + Cilok</h4>
+            <p>Kombinasi sempurna antara bakso besar dan beberapa bakso kecil.</p>
+            <span>Rp 13.000</span>
+        </div>
+    </section>
+
+    <section id="galeri" class="section" >
+        <h3>Foto-Foto Menu Kami</h3>
+        <div class="galeri-container">
+            <div class="galeri-placeholder" ><img src="gambar 1.webp" width="220px" height="160px"></div>
+            <div class="galeri-placeholder"><img src="gambar2.jpg" width="220px" height="160px"></div>
+            <div class="galeri-placeholder"><img src="gambar3.jpg" width="220px" height="160px"></div>
+            <div class="galeri-placeholder"><img src="gambar4.jpg" width="220px" height="160px"></div>
+        </div>
+    </section>
+
+    <section id="kontak" class="section">
+        <h3>Silahkan Hubungi Kami</h3>
+        <p>Alamat: Jl. Marta No. 32, Bandung</p>
+        <p>Telepon: 0831 3578 6312</p>
+        <p>Email: arroyan.arasy@gmail.com</p>
+        <form id="kontakForm" novalidate>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea><br><br>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+        <p id="formFeedback" style="margin-top: 10px;"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bakso MaJun. By AAA</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
